@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e185b2e-bf50-488f-8fbe-5aec7e1e7a69" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-148044943">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nn-trajectory-prediction-keras" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled2.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main17_09_27.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main17_09_28.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tf.cast</find>
+      <find>dataset</find>
+      <find>print</find>
+      <find>constant</find>
+      <find>tf.constant</find>
+      <find>tf.convert</find>
+      <find>_to_tensor</find>
+      <find>constan</find>
+      <find>split</find>
+      <find>pedestrian nu</find>
+      <find>Pedestrian N</find>
+      <find>pedestrian n</find>
+      <find>creat</find>
+      <find>getSocialTensor</find>
+      <find>expected</find>
+      <find>lstm</find>
+      <find>cell(</find>
+      <find>LSTM</find>
+      <find>LSTMC</find>
+      <find>Model</find>
+      <find>inputs</find>
+      <find>tf.sli</find>
+      <find>TODO</find>
+      <find>slice(</find>
+      <find>tf.reshape</find>
+      <find>tlenght</find>
+      <find>self.tlenght</find>
+      <find>cfg.tlenght</find>
+      <find>calling prune</find>
+      <find>return pi</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\PyCharmProjects\nn-trajectory-prediction-keras</dir>
+      <dir>F:\PyCharmProjects\nn-trajectory-prediction-master</dir>
+      <dir>F:\PyCharmProjects\Pypingen</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../path-prediction-keras" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/GitHub/path-prediction-keras/utils.py" />
+        <option value="$USER_HOME$/Documents/GitHub/path-prediction-keras/main.py" />
+        <option value="$PROJECT_DIR$/untitled2.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/untitled.py" />
+        <option value="$PROJECT_DIR$/main_test.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/../social-lstm-tf-master/model.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/../social-lstm-tf-master/trainN.py" />
+        <option value="$PROJECT_DIR$/../social-lstm-tf-master/sample.py" />
+        <option value="$PROJECT_DIR$/../path-prediction-keras/utils.py" />
+        <option value="$PROJECT_DIR$/../nn-trajectory-prediction-master/train.py" />
+        <option value="$PROJECT_DIR$/../path-prediction-keras/social_data_loader.py" />
+        <option value="$PROJECT_DIR$/../path-prediction-keras/grid.py" />
+        <option value="$PROJECT_DIR$/../social-lstm-tf-master/social_utils.py" />
+        <option value="$PROJECT_DIR$/../feature-selection/mifs.py" />
+        <option value="$PROJECT_DIR$/../path-prediction-keras/train_social.py" />
+        <option value="$PROJECT_DIR$/../social-lstm-tf-master/social_train.py" />
+        <option value="$PROJECT_DIR$/../social-lstm-tf-master/social_model.py" />
+        <option value="$PROJECT_DIR$/../path-prediction-keras/train_social_pooling.py" />
+        <option value="F:/Papers/Pypingen/trunk/libs/lattice/DAGPattern.py" />
+        <option value="F:/Papers/fca-master/examples/algorithms_addIntent/all_examples.py" />
+        <option value="$PROJECT_DIR$/../Pypingen/trunk/libs/lattice/diagram.py" />
+        <option value="$PROJECT_DIR$/../Pypingen/trunk/addIntent.py" />
+        <option value="$PROJECT_DIR$/../Pypingen/trunk/libs/lattice/DAGPattern.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="845" />
+    <option name="y" value="173" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nn-trajectory-prediction-keras-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nn-trajectory-prediction-keras-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nn-trajectory-prediction-keras-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nn-trajectory-prediction-keras-master" type="462c0819:PsiDirectoryNode" />
+              <item name="train_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.23162791" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main_test">
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="path-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="path-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="path-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="path-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main17_09_27" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nn-trajectory-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main17_09_27.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main17_09_28" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nn-trajectory-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main17_09_28.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nn-trajectory-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nn-trajectory-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="path-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="path-prediction-keras" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Pypingen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Pypingen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Pypingen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.main_test" />
+      <item itemvalue="Python.main17_09_28" />
+      <item itemvalue="Python.main17_09_27" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_test" />
+        <item itemvalue="Python.main17_09_28" />
+        <item itemvalue="Python.main17_09_27" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\user\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e185b2e-bf50-488f-8fbe-5aec7e1e7a69" name="Default" comment="" />
+      <created>1506346230519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506346230519</updated>
+    </task>
+    <task id="LOCAL-00001" summary="seq2seq">
+      <created>1509101795416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509101795416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="construction of LSTM with shared weights">
+      <created>1512382620756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512382620756</updated>
+    </task>
+    <task id="LOCAL-00003" summary="social pooling">
+      <created>1512554371990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512554371990</updated>
+    </task>
+    <task id="LOCAL-00004" summary="training">
+      <created>1513000675079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513000675079</updated>
+    </task>
+    <task id="LOCAL-00005" summary="loss function">
+      <created>1513327968015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327968015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="loss function">
+      <created>1513606613217</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513606613217</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lighter">
+      <created>1513763582427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1513763582427</updated>
+    </task>
+    <task id="LOCAL-00008" summary="parameters from environment variables">
+      <created>1513764859643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513764859643</updated>
+    </task>
+    <task id="LOCAL-00009" summary="print history">
+      <created>1513765848611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513765848611</updated>
+    </task>
+    <task id="LOCAL-00010" summary="print parameters">
+      <created>1513766127082</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513766127082</updated>
+    </task>
+    <task id="LOCAL-00011" summary="variable type">
+      <created>1513766645602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1513766645602</updated>
+    </task>
+    <task id="LOCAL-00012" summary="history">
+      <created>1513771512004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1513771512004</updated>
+    </task>
+    <task id="LOCAL-00013" summary="argument parser">
+      <created>1513776685704</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1513776685704</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1504" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49528936" visible="true" weight="0.22325328" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5047106" side_tool="true" weight="0.22107969" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" x="3" y="3" width="1360" height="722" id="Run" order="2" visible="true" weight="0.32845187" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$/Documents/GitHub/path-prediction-keras" />
+    </ignored-roots>
+    <MESSAGE value="seq2seq" />
+    <MESSAGE value="construction of LSTM with shared weights" />
+    <MESSAGE value="social pooling" />
+    <MESSAGE value="training" />
+    <MESSAGE value="loss function" />
+    <MESSAGE value="lighter" />
+    <MESSAGE value="parameters from environment variables" />
+    <MESSAGE value="print history" />
+    <MESSAGE value="print parameters" />
+    <MESSAGE value="variable type" />
+    <MESSAGE value="history" />
+    <MESSAGE value="argument parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="argument parser" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/grid.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/framework/constant_op.py" />
+    <entry file="file://$PROJECT_DIR$/../nn-trajectory-prediction-master/train.py" />
+    <entry file="file://$PROJECT_DIR$/../nn-trajectory-prediction-master/pooling_gru.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/gradients_impl.py" />
+    <entry file="file://F:/Papers/Feature selection/FCBF_module-master/FCBF_module.py" />
+    <entry file="file://$PROJECT_DIR$/../feature-selection/mifs.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/models.py" />
+    <entry file="file://$PROJECT_DIR$/../social-lstm-tf-master/social_utils.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/engine/topology.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/utils/layer_utils.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/variable_scope.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/tkinter/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/layers/core.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/rnn_cell_impl.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/topology.py" />
+    <entry file="file://F:/Papers/recurrentshop-master/docs/readout.md" />
+    <entry file="file://F:/Papers/recurrentshop-master/examples/recurrent_highway_networks.py" />
+    <entry file="file://F:/Papers/recurrentshop-master/recurrentshop/engine.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/train_social.py" />
+    <entry file="file://$PROJECT_DIR$/../social-lstm-tf-master/utils.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/lstm_social.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/train_seq2seq.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/utils.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/2025274283/builtins.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/backend/tensorflow_backend.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/engine/training.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/keras/layers/recurrent.py" />
+    <entry file="file://$PROJECT_DIR$/../social-lstm-tf-master/grid.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/variables.py" />
+    <entry file="file://$PROJECT_DIR$/../social-lstm-tf-master/social_model.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/social_utils.py" />
+    <entry file="file://F:/Papers/Pypingen/trunk/libs/lattice/DAGPattern.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/social_data_loader.py" />
+    <entry file="file://$PROJECT_DIR$/../path-prediction-keras/train_social_pooling.py" />
+    <entry file="file://$PROJECT_DIR$/../social-lstm-tf-master/social_train.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fca/io/file_models/__init__.py" />
+    <entry file="file://F:/Papers/fca-master/examples/algorithms_addIntent/all_examples.py" />
+    <entry file="file://F:/Papers/Pypingen/trunk/libs/lattice/diagram.py" />
+    <entry file="file://F:/Papers/Pypingen/trunk/addIntent.py" />
+    <entry file="file://F:/Papers/fca-master/fca/defs/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../Pypingen/trunk/addIntent.py" />
+    <entry file="file://$PROJECT_DIR$/../Pypingen/trunk/libs/lattice/DAGPattern.py" />
+    <entry file="file://$PROJECT_DIR$/../Pypingen/trunk/libs/lattice/diagram.py" />
+    <entry file="file://$PROJECT_DIR$/untitled2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main17_09_27.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main17_09_28.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

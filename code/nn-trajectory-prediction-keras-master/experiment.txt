@@ -1,0 +1,14 @@
+truth [ 0.52656  0.62292]
+
+batch 128
+activation softmax, iter 60
+0.0223
+
+activation elu
+0.0025
+
+activation linear
+0.0012
+
+iter 100
+7.6084e-04

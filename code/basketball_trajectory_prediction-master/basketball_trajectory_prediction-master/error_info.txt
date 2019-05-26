@@ -1,0 +1,10 @@
+'DataFrame' object has no attribute 'sort'
+'DataFrame' object has no attribute 'sort'
+Dimensions must be equal, but are 96 and 36 for 'bidir_LSTM/cell0/bidirectional_rnn/fw/fw/basic_lstm_cell/MatMul_24' (op: 'MatMul') with input shapes: [32,96], [36,128].
+Dimensions must be equal, but are 96 and 36 for 'bidir_LSTM/cell0/bidirectional_rnn/fw/fw/basic_lstm_cell/MatMul_24' (op: 'MatMul') with input shapes: [128,96], [36,128].
+'NoneType' object is not iterable
+Dimensions must be equal, but are 128 and 68 for 'LSTM/rnn/rnn/multi_rnn_cell/cell_0/basic_lstm_cell/MatMul_1' (op: 'MatMul') with input shapes: [128,128], [68,256].
+Dimensions must be equal, but are 96 and 36 for 'bidir_LSTM/cell0/bidirectional_rnn/fw/fw/basic_lstm_cell/MatMul_24' (op: 'MatMul') with input shapes: [32,96], [36,128].
+Dimensions must be equal, but are 96 and 36 for 'bidir_LSTM/cell0/bidirectional_rnn/fw/fw/basic_lstm_cell/MatMul_24' (op: 'MatMul') with input shapes: [32,96], [36,128].
+Dimensions must be equal, but are 96 and 36 for 'bidir_LSTM/cell0/bidirectional_rnn/fw/fw/basic_lstm_cell/MatMul_24' (op: 'MatMul') with input shapes: [64,96], [36,128].
+Dimensions must be equal, but are 96 and 36 for 'bidir_LSTM/cell0/bidirectional_rnn/fw/fw/basic_lstm_cell/MatMul_24' (op: 'MatMul') with input shapes: [128,96], [36,128].
