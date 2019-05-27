@@ -21,8 +21,8 @@ train_data_path =  "../data/sample_train.txt"
 test_data_path =  "../data/sample_test.txt"
 save_model_dir =  "./%s/%d_steps/%d_units/" % (FLAGS.dataset, FLAGS.decoder_size, FLAGS.hidden_dim)
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.1)
+#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+#gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.1)
 if not os.path.exists(save_model_dir):
     os.makedirs(save_model_dir)
 load_model = 1 if os.listdir(save_model_dir) else 0
@@ -36,7 +36,7 @@ def train():
     
     tolerance_count = 0
     checkpoint_dir = os.path.join(save_model_dir, "%dhidden_%ddecoder_bestmodel.ckpt" % (FLAGS.hidden_dim, FLAGS.decoder_size))
-    with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
+    with tf.Session() as sess:
         global_test_error = 1000000
         best_model = sess
         model = create_model(sess, FLAGS.encoder_size, FLAGS.decoder_size, FLAGS.hidden_dim, FLAGS.input_dim, \

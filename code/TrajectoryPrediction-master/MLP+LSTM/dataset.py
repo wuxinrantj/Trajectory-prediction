@@ -21,27 +21,27 @@ class Data(object):
         self.test_labels = list()
 
         # read data
-        print "start read data ..."
+        print ("start read data ...")
         train_data = pd.read_table(self.train_data_path, sep=' ', header=None)
         test_data = pd.read_table(self.test_data_path, sep=' ', header=None)
         
         # normalization
-        print "start normalization ..."
+        print ("start normalization ...")
         total_data = pd.concat([train_data,test_data])
         self.scaler = StandardScaler().fit(total_data.get([2,3]).values)
         train_data[2], train_data[3] = np.split(self.scaler.transform(train_data[[2,3]]), 2, axis=1)
         test_data[2], test_data[3] = np.split(self.scaler.transform(test_data[[2,3]]), 2, axis=1)
         
         # orignise train and test data
-        print "start orginize data ..."
+        print ("start orginize data ...")
         train_data.groupby([0]).apply(self.orignise_train)
         test_data.groupby([0]).apply(self.orignise_test)
         
-        print "start transfrom numpy ... "
+        print ("start transfrom numpy ... ")
         self.train_inputs, self.train_labels, self.test_inputs, self.test_labels = np.array(self.train_inputs, dtype=np.float32), \
             np.array(self.train_labels, dtype=np.float32), np.array(self.test_inputs, dtype=np.float32), np.array(self.test_labels, dtype=np.float32)
         
-        print "start shuffle ..."
+        print ("start shuffle ...")
         self.train_inputs, self.train_labels = shuffle(self.train_inputs, self.train_labels, random_state=0)
         self.test_inputs, self.test_labels = shuffle(self.test_inputs, self.test_labels, random_state=0)
         

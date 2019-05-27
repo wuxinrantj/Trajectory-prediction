@@ -65,7 +65,8 @@ class Seq2SeqModel(object):
             self.loss += tf.sqrt(tf.reduce_sum(tf.square(self.decoder_inputs[i] - self.decoder_outputs[i])))
 
         self.optimizer = tf.train.AdamOptimizer(0.001).minimize(self.loss)
-        
+        self.saver = tf.train.Saver(tf.global_variables())
+
     def step(self, sess, X, y, encoder_size, decoder_size, is_training):
         input_feed = {}
         for i in range(encoder_size):

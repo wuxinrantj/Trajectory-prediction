@@ -1,0 +1,2 @@
+model_checkpoint_path: "128hidden_10decoder_bestmodel.ckpt"
+all_model_checkpoint_paths: "128hidden_10decoder_bestmodel.ckpt"
