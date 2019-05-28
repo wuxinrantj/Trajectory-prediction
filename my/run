@@ -1,0 +1,4 @@
+python ts_predict.py --model_name=ann --data_dir='../data/example/data.csv' --predict_time=24
+
+
+python ts_period_predict.py --model_name=ann --data_dir='../data/example/timeseries_data.csv' --predict_time=24

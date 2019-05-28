@@ -2,7 +2,7 @@
 
 import numpy as np
 from dtw import dtw
-from aiopstools.timeseries_predict.handle_data.process import diff_smooth
+from process import diff_smooth
 
 
 def period_check(timeseries, interval):
@@ -10,7 +10,7 @@ def period_check(timeseries, interval):
     # 检测结果
     check_result = ''
     # DTW参数
-    dtw_threshold = 3
+    dtw_threshold = 30
     # 保证timeseries不全为nan
     if len(timeseries[np.isnan(timeseries)]) != len(timeseries):
         # 平滑处理
