@@ -83,7 +83,7 @@ def predict_model(timestamp, value, args):
             if result is not None:
                 return result.values
             else:
-                print('The result of prediction os None')
+                print('The result of prediction is None')
                 return
 
         # 不具有周期性
@@ -95,7 +95,7 @@ def predict_model(timestamp, value, args):
             if train_model is not None:
                 predict_data = model.predict(train_model, smooth_data.values)
             else:
-                print('The result of prediction os None')
+                print('The result of prediction is None')
                 return
             return predict_data
 
