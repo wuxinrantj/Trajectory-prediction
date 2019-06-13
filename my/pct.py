@@ -14,4 +14,6 @@ def pct(predict_value, truth_value):
     pct_value = np.true_divide(abs(predict_value-truth_value),truth_value)
     # 求所有pct的均值
     pct_mean_value = np.mean(pct_value)
-    return pct_mean_value
+    RMSE = np.sqrt(sum((predict_value - truth_value) ** 2) / len(predict_value))
+    print("the prediction error:%f" % pct_mean_value)
+    print("the prediction RMSE:%f" % RMSE)

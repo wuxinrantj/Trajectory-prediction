@@ -54,7 +54,7 @@ def period_predict(decomposition, args, interval):
     final_predict = pd.Series(values, index=predict_time_index, name='predict')
     return final_predict
 
-def predict_model(timestamp, value, args):
+def predict_model(timestamp, value, args, freq):
     """预测主函数"""
     dta = data_to_datetimeindex(timestamp, value)
 
@@ -68,12 +68,14 @@ def predict_model(timestamp, value, args):
         # 周期性检测
         # 具有周期性
         period_result = period_check(dta, interval)
-        print('The result of period is %s' %period_result)
+        print('The result of period is %s' % period_result)
 
         if period_result == 'yes':
             try:
                 # 周期性分解
-                decomposition = seasonal_decompose(smooth_data, two_sided=False)
+                decomposition = seasonal_decompose(smooth_data, freq=freq, two_sided=False)
+                decomposition.plot()
+                plt.show()
             except:
                 print('The freq of series is not supported.')
                 return
@@ -135,13 +137,13 @@ if __name__ == "__main__":
     check_result = check_param(args)
     if check_result == '':
         ori_data, timestamp_list, value_list = get_train_data(args.data_dir, args.predict_time)
-        predict_data = predict_model(timestamp_list, value_list, args)
+        predict_data = predict_model(timestamp_list, value_list, args, freq= 200)
         print("the prediction result:")
         print(predict_data)
         truth_data = get_truth_data(args.data_dir, args.predict_time)
         if predict_data is not None and truth_data is not None:
-            accuracy = pct(predict_data, truth_data)
-            print("the prediction error:%f" %accuracy)
+            pct(predict_data, truth_data)
+            #print("the prediction error:%f" %accuracy)
             get_figure(value_list, predict_data, truth_data)
         else:
             print('The result of prediction is null')
