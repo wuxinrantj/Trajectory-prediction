@@ -5,7 +5,7 @@ from dtw import dtw
 from process import diff_smooth
 
 
-def period_check(timeseries, interval):
+def period_check(timeseries, interval, freq):
     """周期性检测算法"""
     # 检测结果
     check_result = ''
@@ -16,7 +16,7 @@ def period_check(timeseries, interval):
         # 平滑处理
         smooth_data = diff_smooth(timeseries, interval)
         # 分段
-        split_data = np.array(smooth_data).reshape(-1, 200)  # example is 24 , data is 200
+        split_data = np.array(smooth_data).reshape(-1, freq)  # example is 24 , data is 200
         # 求相邻段之间的DTW距离
         dist_list = []
         for j in range(len(split_data)-1):

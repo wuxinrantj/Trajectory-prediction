@@ -20,6 +20,7 @@ def period_predict(decomposition, args, interval):
     """具有周期性时间序列的预测"""
     trend = decomposition.trend
     seasonal = decomposition.seasonal
+    residual = decomposition.resid
 
     trend.dropna(inplace=True)
 
@@ -45,8 +46,8 @@ def period_predict(decomposition, args, interval):
         # t为2018-08-09 15:18:00类型的时间,t.time()为15:18:00类型的时间
         season_part = seasonal[seasonal.index.time == t.time()].mean()
 
-        # 趋势 + 周期
-        predict = trend_part + season_part
+        # 趋势 + 周期 + 残差
+        predict = trend_part + season_part  # 趋势 * 周期
 
         values.append(round(predict, 2))
 
@@ -61,26 +62,26 @@ def predict_model(timestamp, value, args, freq):
     # 历史数据的间隔
     interval = timestamp[1] - timestamp[0]
 
-    if len(dta) > 2*args.predict_time and len(dta[np.isnan(dta)]) != len(dta):
+    if len(dta) > 2 * args.predict_time and len(dta[np.isnan(dta)]) != len(dta):
         # 平滑处理
         smooth_data = diff_smooth(dta, interval)
 
         # 周期性检测
         # 具有周期性
-        period_result = period_check(dta, interval)
+        period_result = period_check(dta, interval, freq)
         print('The result of period is %s' % period_result)
 
         if period_result == 'yes':
             try:
                 # 周期性分解
-                decomposition = seasonal_decompose(smooth_data, freq=freq, two_sided=False)
+                decomposition = seasonal_decompose(smooth_data, model='additive', freq=freq, two_sided=False)    # model='multiplicative' 乘法模型
                 decomposition.plot()
                 plt.show()
             except:
                 print('The freq of series is not supported.')
                 return
 
-            # 用treand部分进行预测
+            # 用trend部分进行预测
             result = period_predict(decomposition, args, interval)
             if result is not None:
                 return result.values
@@ -137,14 +138,15 @@ if __name__ == "__main__":
     check_result = check_param(args)
     if check_result == '':
         ori_data, timestamp_list, value_list = get_train_data(args.data_dir, args.predict_time)
-        predict_data = predict_model(timestamp_list, value_list, args, freq= 200)
+        predict_data = predict_model(timestamp_list, value_list, args, freq=args.predict_time)
         print("the prediction result:")
         print(predict_data)
         truth_data = get_truth_data(args.data_dir, args.predict_time)
         if predict_data is not None and truth_data is not None:
-            pct(predict_data, truth_data)
-            #print("the prediction error:%f" %accuracy)
-            get_figure(value_list, predict_data, truth_data)
+            pct_mean_value, RMSE = pct(predict_data, truth_data)
+            print("the prediction error:%f" % pct_mean_value)
+            print("the prediction RMSE:%f" % RMSE)
+            get_figure(value_list, predict_data, truth_data, RMSE)
         else:
             print('The result of prediction is null')
     else:

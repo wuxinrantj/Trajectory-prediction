@@ -61,9 +61,10 @@ if __name__ == "__main__":
 
                 truth_data = get_truth_data(args.data_dir, args.predict_time)
                 if predict_data is not None and truth_data is not None:
-                    pct(predict_data, truth_data)   # 输出百分比误差和RMSE
-                    #print("the prediction error:%f" %accuracy)
-                    get_figure(value_list, predict_data, truth_data)
+                    pct_mean_value, RMSE = pct(predict_data, truth_data)
+                    print("the prediction error:%f" % pct_mean_value)
+                    print("the prediction RMSE:%f" % RMSE)
+                    get_figure(value_list, predict_data, truth_data, RMSE)
                     print(len(value_list),len(predict_data),len(truth_data))
                 else:
                     print('The result of prediction is null')
