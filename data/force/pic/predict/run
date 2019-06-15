@@ -1,0 +1,1 @@
+python ts_predict.py --model_name=lstm  --data_dir='../data/force/x.csv' --predict_time=200
