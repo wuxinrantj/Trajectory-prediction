@@ -74,7 +74,7 @@ def predict_model(timestamp, value, args, freq):
         if period_result == 'yes':
             try:
                 # 周期性分解
-                decomposition = seasonal_decompose(smooth_data, model='additive', freq=freq, two_sided=False)    # model='multiplicative' 乘法模型
+                decomposition = seasonal_decompose(smooth_data, model="multiplicative", two_sided=False)    # model='multiplicative' 乘法模型
                 decomposition.plot()
                 plt.show()
             except:
