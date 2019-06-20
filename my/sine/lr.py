@@ -24,11 +24,14 @@ sine = 5 * np.sin(2 * np.pi * X / T)
 ex = np.exp(-0.2 * X) #+ np.random.rand(n_dots)
 X1 = np.linspace(0, 11, 100)
 res = np.random.rand(100) - 0.5
-Y = sine * ex
+Y = np.log(10 + sine * ex)
 X = X.reshape(-1, 1)
 Y = Y.reshape(-1, 1)
 
-'''
+decomposition = seasonal_decompose(Y, freq=200, model="multiplicative")
+decomposition.plot()
+plt.show()
+
 fig = plt.subplot(4, 1, 1)
 plt.plot(X, Y, 'r-')
 fig = plt.subplot(4, 1, 3)
@@ -63,3 +66,4 @@ for i, r in enumerate(results):
     plt.plot(X, Y, 'b-')
     plt.plot(X2[-200:], r["model"].predict(X2)[-200:], 'r-')
 plt.show()
+'''
